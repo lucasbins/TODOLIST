@@ -1,0 +1,40 @@
+.dashboard{
+    display: flex;
+    max-width: 60%;
+    height: 40rem;
+    background: #161a2b;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    flex-direction: column;
+    min-width: max-content;
+}
+
+.dashboard h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:aliceblue;
+    top: 2rem;
+    font-size: 40px;
+    margin: 2rem;
+}
+
+.board{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    max-width: 100%;
+    background-color: #fff;
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+.bar{
+    width: 40%;
+    margin: 2rem;
+    min-width: 340px;
+    min-height: 200px;
+}
