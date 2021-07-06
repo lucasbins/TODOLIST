@@ -198,12 +198,16 @@ h1 {
   );
 }
 
+.img-fluid{
+  opacity: 0.9;
+}
+
 #titulo {
   position: absolute;
   color: #fff;
   top:10rem;
   right: 10%;
-  width: 40rem;
+  width: 45rem;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -221,6 +225,7 @@ h1 {
   font-size: 25px;
   text-align: end;
   justify-content: end;
+  color:#fff;
 }
 
 #modalLogin{

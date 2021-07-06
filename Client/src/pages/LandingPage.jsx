@@ -15,8 +15,8 @@ export const LandingPage = () => {
         <>
             <img src={Img} alt={""} className="img-fluid" />
             <div id="titulo">
-                <p id="titulo_chamada">Chega de procastinar!</p>
-                <p id="titulo_texto">Comece a usar o <b style={{ color: 'rgba(155, 0, 250, 1)' }}>
+                <p id="titulo_chamada">Chega de Procastinar!</p>
+                <p id="titulo_texto">Comece a usar o <b style={{ color: 'rgba(93, 12, 255, 1)' }}>
                     Tarefas.io
                 </b>, e não perca nenhuma atividade!</p>
                 <button className='button-comecar' onClick={handleOpenLogin}>Começar</button>
